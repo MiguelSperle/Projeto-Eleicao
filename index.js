@@ -1,5 +1,5 @@
 let submit = document.getElementById('ipnS')
-submit.addEventListener('click', (event) => {
+submit.addEventListener('click', () => {
     let input = document.querySelector('#ipn')
     let transfInput = Number(input.value)
     let resposta = document.querySelector('#res')
